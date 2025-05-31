@@ -1,0 +1,19 @@
+.card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 0.5rem 0.5rem 0 0;
+    transition: transform 0.3s;
+}
+.card:hover {
+    box-shadow: 0 8px 24px rgba(38,153,251,0.15), 0 1.5px 6px rgba(0,0,0,0.10);
+    transform: translateY(-6px) scale(1.03);
+    border-color: #2699fb;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    text-align: left !important;
+}
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
